@@ -4,7 +4,7 @@
   color: white;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: auto;
   padding: 0;
   transition: all 0.3s ease-in-out;
   margin: 0;
