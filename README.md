@@ -1,6 +1,6 @@
 # Fullstack Admin Dashboard
 
-Here are some screenshots of our Fullstack Admin Dashboard:
+Fullstack Admin Dashboard:
 
 ![Dashboard](https://github.com/MostafaKh1/fullstack-admin-dashboard/assets/93700525/2072c5a2-5f15-40b2-a2fb-407783e063c5)
 
