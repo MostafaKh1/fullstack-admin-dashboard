@@ -1,0 +1,43 @@
+.main {
+  padding: 5px 30px;
+  padding-bottom: 20px;
+  flex: 1;
+}
+
+.container {
+  padding: 10px 50px;
+
+  background-color: white;
+  border-radius: 18px;
+}
+
+.tagline {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.info h4 {
+  font-size: 26px;
+  margin-top: 3px;
+  color: dimgray;
+  margin-bottom: 0;
+}
+
+.info p {
+  color: #ccc;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.ann_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .main {
+    order: 2;
+  }
+}

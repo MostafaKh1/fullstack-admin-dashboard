@@ -1,0 +1,35 @@
+.main {
+  background-color: white;
+  padding: 0 20px;
+  width: 300px;
+  border-radius: 18px;
+}
+
+.main p {
+  margin-bottom: 6px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: dimgray;
+}
+
+.quiz_section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .main {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+}

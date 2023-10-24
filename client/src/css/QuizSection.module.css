@@ -1,0 +1,42 @@
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.flex span {
+  color: var(--green-color);
+}
+
+.flex h5 {
+  margin: 0;
+  margin-bottom: 6px;
+  color: dimgray;
+  font-size: 15px;
+}
+
+.btn {
+  padding: 5px 0px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--green-color);
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--green-color);
+  border-radius: 12px;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .flex {
+    text-align: center;
+    margin-top: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+}
