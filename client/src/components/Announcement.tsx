@@ -10,7 +10,7 @@ function Announcement() {
 
   const dispatch = UseAppDispatch();
   useEffect(() => {
-    fetch(`http://localhost:5000/announcements`)
+    fetch(`https://backend-acc-quiz.onrender.com/announcements`)
       .then((response) => response.json())
       .then((data) => dispatch(setAnnouncements(data)))
       .catch((err) => console.log(err));
